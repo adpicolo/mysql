@@ -30,7 +30,7 @@ create table tbclientes(
 );
 
 create table tbos(
-	os int primary key auto_increment,
+	os int primary key auto_increment,ola
     data_os timestamp default current_timestamp,
     tipo varchar(15) not null,
     situacao varchar(20) not null,
